@@ -325,7 +325,7 @@ cdef extern from "hdf5.h":
 
 # === H5P - Property list API =================================================
 
-  int H5P_DEFAULT
+  hid_t H5P_DEFAULT
 
   ctypedef int H5Z_filter_t
 
